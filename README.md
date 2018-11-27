@@ -25,6 +25,8 @@ Calculating the convolutional result of each pixels value in an image according 
 
 Calculating the weighted sum of two images.
 
-<img src="data/image/lena.jpg" width="30%">
-<img src="data/image/baboon.jpg" width="30%">
-<img src="result/blend.png" width="30%">
+<p align="center">
+    <img src="data/image/lena.jpg" width="30%">
+    <img src="data/image/baboon.jpg" width="30%">
+    <img src="result/blend.png" width="30%">
+</p>
