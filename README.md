@@ -34,9 +34,9 @@ Calculating the convolutional result of each pixels value in an image according 
 Calculating the weighted sum of two images.
 
 <p align="center">
-    <img src="data/image/lena.jpg" width="30%">
-    <img src="data/image/baboon.jpg" width="30%">
-    <img src="result/blend.png" width="30%">
+    <img src="data/image/lena.jpg" width="25%">
+    <img src="data/image/baboon.jpg" width="25%">
+    <img src="result/blend.png" width="25%">
 </p>
 
 ### 05-Contrast
@@ -44,7 +44,16 @@ Calculating the weighted sum of two images.
 Changing the contrast and brightness of an image.
 
 <p align="center">
-    <img src="data/image/lena.jpg" width="30%">
-    <img src="result/overexposure.png" width="30%">
-    <img src="result/gamma_correlation.png" width="30%">
+    <img src="data/image/lena.jpg" width="25%">
+    <img src="result/overexposure.png" width="25%">
+    <img src="result/gamma_correlation.png" width="25%">
+</p>
+
+### 06-Fourier transform
+
+Applying the **low pass filter** to the image and observe the result.
+
+<p align="center">
+    <img src="result/blur_hex.png" width="35%">
+    <img src="result/fourier_spectrum.png" width="35%">
 </p>
