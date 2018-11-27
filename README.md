@@ -34,9 +34,9 @@ Calculating the convolutional result of each pixels value in an image according 
 Calculating the weighted sum of two images.
 
 <p align="center">
-    <img src="data/image/lena.jpg">
-    <img src="data/image/baboon.jpg">
-    <img src="result/blend.png">
+    <img src="data/image/lena.jpg" width="30%">
+    <img src="data/image/baboon.jpg" width="30%">
+    <img src="result/blend.png" width="30%">
 </p>
 
 ### 05-Contrast
@@ -44,7 +44,7 @@ Calculating the weighted sum of two images.
 Changing the contrast and brightness of an image.
 
 <p align="center">
-    <img src="data/image/lena.jpg">
-    <img src="result/overexposure.png">
-    <img src="result/gamma_correlation.png">
+    <img src="data/image/lena.jpg" width="30%">
+    <img src="result/overexposure.png" width="30%">
+    <img src="result/gamma_correlation.png" width="30%">
 </p>
