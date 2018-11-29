@@ -71,6 +71,19 @@ Using the **Random Number generator** class (cv::RNG) to create random textures 
     <img src="result/random_text.png" width="35%">
 </p>
 
+### 09-Smmothing image
+
+Applying diverse **linear filters** to the image using OpenCV functions (blur, GaussianBlur, medianBlur and bilateralFilter).
+
+<p align="center">
+    <img src="result/blur_baboon.png" width="25%">
+    <img src="result/gaussian_baboon.png" width="25%">
+</p>
+<p align="center">
+    <img src="result/median_baboon.png" width="25%">
+    <img src="result/bilateral_baboon.png" width="25%">
+</p>
+
 ## Reference
 
 1. <https://docs.opencv.org/3.4/d9/df8/tutorial_root.html>
