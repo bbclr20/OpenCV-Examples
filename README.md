@@ -84,6 +84,28 @@ Applying diverse **linear filters** to the image using OpenCV functions (blur, G
     <img src="result/bilateral_baboon.png" width="25%">
 </p>
 
+### 10-Eroding and dilating
+
+Applying morphological operators **cv::erode and cv::dilate** to the image.
+
+The erosion operation is: 
+
+<pre>
+<b>dst</b>(x,y)=<b>min</b><sub>(x',y'):element(x',y')&ne;0</sub><b> src</b>(x+x', y+y')
+</pre>
+
+The dilatation operation is: 
+
+<pre>
+<b>dst</b>(x,y)=<b>max</b><sub>(x',y'):element(x',y')&ne;0</sub><b> src</b>(x+x', y+y')
+</pre>
+
+<p align="center">
+    <img src="data/image/morphology_j.png" height="25%">
+    <img src="result/erosion_j.png" height="25%">
+    <img src="result/dilation_j.png" height="25%">
+</p>
+
 ## Reference
 
 1. <https://docs.opencv.org/3.4/d9/df8/tutorial_root.html>
