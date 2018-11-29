@@ -57,3 +57,12 @@ Applying the **low pass filter** to the image and observe the result.
     <img src="result/blur_hex.png" width="35%">
     <img src="result/fourier_spectrum.png" width="35%">
 </p>
+
+### 07-File IO
+
+Using cv::FileStorage, cv::FileNode and cv::FileNodeIterator to write/read the text entries to a file. The output file may be either **XML (xml) , YAML (yml/yaml) or xml.gz** which is depend on the file extension.
+
+
+## Reference
+
+1. <https://docs.opencv.org/3.4/d9/df8/tutorial_root.html>
