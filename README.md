@@ -62,6 +62,14 @@ Applying the **low pass filter** to the image and observe the result.
 
 Using cv::FileStorage, cv::FileNode and cv::FileNodeIterator to write/read the text entries to a file. The output file may be either **XML (xml) , YAML (yml/yaml) or xml.gz** which is depend on the file extension.
 
+### 08-RNG
+
+Using the **Random Number generator** class (cv::RNG) to create random textures and overlay the textures on the canvas.
+
+<p align="center">
+    <img src="result/random_circles.png" width="35%">
+    <img src="result/random_text.png" width="35%">
+</p>
 
 ## Reference
 
